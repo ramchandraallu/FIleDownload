@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74679" started-at="2020-04-18T17:10:15Z" finished-at="2020-04-18T17:11:29Z">
+  <suite name="Default suite" duration-ms="21568" started-at="2020-04-19T13:25:02Z" finished-at="2020-04-19T13:25:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74679" started-at="2020-04-18T17:10:15Z" finished-at="2020-04-18T17:11:29Z">
-      <class name="MyTest.MyTestclass">
-        <test-method status="PASS" signature="before()[pri:0, instance:MyTest.MyTestclass@72f926e6]" name="before" is-config="true" duration-ms="32130" started-at="2020-04-18T17:10:15Z" finished-at="2020-04-18T17:10:47Z">
+    <test name="Default test" duration-ms="21568" started-at="2020-04-19T13:25:02Z" finished-at="2020-04-19T13:25:23Z">
+      <class name="MyTest.Basic_Auth">
+        <test-method status="PASS" signature="testAuth()[pri:0, instance:MyTest.Basic_Auth@724af044]" name="testAuth" duration-ms="21440" started-at="2020-04-19T13:25:02Z" finished-at="2020-04-19T13:25:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:MyTest.MyTestclass@72f926e6]" name="test" duration-ms="41220" started-at="2020-04-18T17:10:47Z" finished-at="2020-04-18T17:11:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="After()[pri:0, instance:MyTest.MyTestclass@72f926e6]" name="After" is-config="true" duration-ms="1146" started-at="2020-04-18T17:11:28Z" finished-at="2020-04-18T17:11:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- After -->
-      </class> <!-- MyTest.MyTestclass -->
+        </test-method> <!-- testAuth -->
+      </class> <!-- MyTest.Basic_Auth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
